@@ -10,5 +10,5 @@ void appearance()
 	cout << "                                   |       4、编辑单词卡片	   |" << endl;
 	cout << "                                   |       5、退出系统		   |" << endl;
 	cout << "                                   ---------------------------------" << endl;
-	cout << "请选择功能：" << endl;
+	cout << "请选择功能：";
 }
