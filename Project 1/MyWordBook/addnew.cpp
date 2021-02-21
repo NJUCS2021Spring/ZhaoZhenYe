@@ -1,13 +1,13 @@
 #include<iostream>
 #include<fstream>
-#include<cstring>
+#include<string>
+using namespace std;
 struct word
-{
+{   
+    string example;
     char content[20];
     char meaning[20];
-    string example;
 };
-using namespace std;
 void addnew(int group_num)
 {
     word new_word;
